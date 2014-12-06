@@ -18,3 +18,10 @@ options = {"debug"      : True,     # Режим отладки
 
 # Переменные для сцен
 scene_create = []
+
+# Список авторов
+authors = {"Sergej Belousov \"Brounredo\""  : "Programisto",
+           "Anastasija Pronina"             : "Pentristo",
+           "Demid Ogorodnikov"              : "Scenaristo",
+           "Ekaterina Leonova"              : "Pentristo",
+           "Aleksandr Karev"                : "Muzikisto"}
