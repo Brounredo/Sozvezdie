@@ -107,13 +107,13 @@ def init_scenes():
     # Создание персонажа #
     ######################
     vars.Scenes.append(screen.Screen(pyglet.image.load(os.path.dirname(os.path.abspath(__file__)) + "/Images/create.jpg"),
-                                     [text.Text(u"Сложность: " + str(vars.Diff), [100, 450], colors.Yellow),
-                                      text.Text(u"Имя: " + vars.Player.Name, [100, 400], colors.Yellow),
-                                      text.Text(u"⬅︎", [50, 400], colors.Yellow),
-                                      text.Text(u"Фамилия: " + vars.Player.Surname, [100, 350], colors.Yellow),
-                                      text.Text(u"⬅︎", [50, 350], colors.Yellow),
-                                      text.Text(u"Отчество: " + vars.Player.Otchestvo, [100, 300], colors.Yellow),
+                                     [text.Text(u"Сложность: " + str(vars.Diff), [100, 350], colors.Gold),
+                                      text.Text(u"Имя: " + vars.Player.Name, [100, 300], colors.Yellow),
                                       text.Text(u"⬅︎", [50, 300], colors.Yellow),
+                                      text.Text(u"Фамилия: " + vars.Player.Surname, [100, 250], colors.Yellow),
+                                      text.Text(u"⬅︎", [50, 250], colors.Yellow),
+                                      text.Text(u"Отчество: " + vars.Player.Otchestvo, [100, 200], colors.Yellow),
+                                      text.Text(u"⬅︎", [50, 200], colors.Yellow),
                                       text.Text(u"В путь!", [500, 70], colors.Yellow),
                                       text.Text(u"Назад", [100, 70], colors.Yellow)],
                                      []))
